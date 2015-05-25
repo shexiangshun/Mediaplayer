@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:Theme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" /> 
+   	<style name="myNotitle">
+    <item name="android:windowNoTitle">true</item>
+	</style>
+	
+    <style name="setting_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>        
+        <item name="android:windowBackground">@drawable/screen_background_dark</item>         
+        <!-- 对话框背景 -->
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <style name="text_menu_focus">
+        <item name="android:textSize">42px</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#99000000</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:gravity">center</item>        
+    </style>
+    
+    <style name="text_menu_unfocus">
+        <item name="android:textSize">36px</item>
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:shadowColor">#4c000000</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>   
+        <item name="android:gravity">center</item>      
+    </style>    
+</resources>

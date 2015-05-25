@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+   >
+   <TextView
+       android:id="@+id/price"
+        android:layout_width="200px"
+	    android:layout_height="100px"
+	    android:layout_marginTop="150px"
+	    android:layout_marginLeft="100px"
+	    android:text="价格：未查询"
+	    />
+    
+	<Button
+	    android:id="@+id/letv"
+	    android:layout_width="200px"
+	    android:layout_height="100px"
+	    android:layout_marginTop="350px"
+	    android:layout_marginLeft="100px"
+	    android:onClick="click"
+	    android:text="播放"/>
+	
+	 <TextView
+       	android:id="@+id/status"
+        android:layout_width="200px"
+	    android:layout_height="100px"
+	    android:layout_marginTop="150px"
+	    android:layout_marginLeft="400px"
+	    android:text="SDK状态：未初始化"
+	    />
+	
+	<Button
+	    android:id="@+id/pay"
+	    android:layout_width="200px"
+	    android:layout_height="100px"
+	    android:layout_marginTop="350px"
+	    android:layout_marginLeft="400px"
+	    android:onClick="click"
+	    android:text="支付"/>	
+	    
+	 <TextView
+       	android:id="@+id/text_pay"
+        android:layout_width="200px"
+	    android:layout_height="100px"
+	    android:layout_marginTop="150px"
+	    android:layout_marginLeft="800px"
+	    android:text="支付状态：未支付"
+	    />
+</FrameLayout>
